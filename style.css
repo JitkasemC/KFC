@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+  }
+  #header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-bottom: 40px;
+    width: 100%;
+  /*   border-bottom: #fae3e3 2px solid; */
+    position: fixed;
+    background: #fff0f0;
+  }
+  #header-img {
+    width: 100px ;
+    height: 100px;
+  }
+  
+  #nav-bar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+  }
+  
+  .nav-link {
+    color: #b30505;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  #video {
+    margin-top: 142px;
+  }
+  
+  #about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 300px;
+    background: #8f0108;
+    color: white;
+    margin: 40px 0;
+  }
+  h1{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 4px;
+  }
+  
+  #about-header-text {
+    align-self: start;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  p {
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  #menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-card-container {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    margin: 10px 0;
+  }
+  
+  .menu-card{
+    border: red 2px solid;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 323px;
+  }
+  
+  .menu-name {
+    text-align: center;
+    color: #b80027;
+    font-family: 'Chonburi', cursive;
+  }
+  
+  .menu-info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 291.53px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  .menu-price-cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+  
+  .menu-price-text {
+  font-family: 'Prompt', sans-serif;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    background: #c9042f;
+    color: white;
+    padding: 8px 5px;
+    border: none;
+    font-family: 'Hind Siliguri', sans-serif;
+  
+  }
+  
+  #faq-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #3d2326;
+    color: white;
+    margin: 40px 0;
+    padding: 40px 250px;
+  }
+  
+  #faq-header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #faq-header-text {
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 20px;
+    margin: 30px 0;
+  }
+  
+  .faq-question-text {
+    font-size: 19px;
+    margin: 20px 0;
+  }
+  
+  .faq-answer-text{
+    line-height: 1.6;
+    text-indent: 80px;
+  }
+  
+  .header-email-text {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #email{
+    margin: 8px;
+    width: 25%
+  }
+  
+  .email-submit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  
+  #footer {
+    display: flex;
+    justify-content: end;
+    padding: 0 250px;
+    margin: 20px;
+    background: gray;
+    width: 100%;
+    font-family: 'Hind Siliguri', sans-serif;
+  }
+  
+  #nav-bar-footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+  }
